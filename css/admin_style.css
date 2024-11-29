@@ -163,7 +163,15 @@ section, .post-editor{
     border-radius: .5rem;
     padding: 2rem;
 }
-.form-container .loging{
+.form-containerform .flex{
+    display: flex;
+    gap: 2rem;
+}
+.form-container form .flex .col{
+    flex: 1 1 25rem;
+}
+
+.form-container .login{
     width: 50rem;
 }
 .form-container .register{
@@ -181,7 +189,7 @@ section, .post-editor{
     padding: 10px;
     background-color: var(--main-color);
 }
-.form-containerform h3{
+.form-container form h3{
     text-align: center;
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -209,5 +217,27 @@ section, .post-editor{
     color: var(--pink-color);
     text-decoration: underline;
 }
+.form-container form .box{
+    background-color: var(--white-alpha-25);
+    border: 2px solid var(--white-alpha-40);
+    backdrop-filter: var(--backdrop-filter);
+    box-shadow: var(--box-shadow);
+    width: 100%;
+    border-radius: .5rem;
+    margin: .5rem 0;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+.form-container form textarea{
+    height: 20rem;
+    resize: none;
+}
 
+.form-container form .btn{
+    width: 100%;
+    font-size: 1.3rem;
+}
+.form-container .image{
+    height: 30rem;
+}
 
